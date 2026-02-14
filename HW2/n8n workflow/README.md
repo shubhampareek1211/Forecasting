@@ -7,7 +7,7 @@ Chat with PostgreSQL database using natural language powered by Groq LLM.
 ### Prerequisites
 - PostgreSQL installed locally
 - n8n (running via Docker)
-- Groq API key
+- Gemini API key
 
 ### Database Setup
 1. Create database: `online_retail`
@@ -20,15 +20,15 @@ Chat with PostgreSQL database using natural language powered by Groq LLM.
 
 ### n8n Configuration
 1. Import the workflow JSON file
-2. Configure Groq Chat Model credential with your API key
+2. Configure Gemini Chat Model credential with your Gemini AI studio API key
 3. Configure PostgreSQL credential
-4. Model: `llama-3.3-70b-versatile`
+4. Model: `Gemini 3 Flash`
 
 ## Usage
 Ask questions like:
-- "How many total orders are in the database?"
-- "What are the top 5 best-selling products?"
-- "Show me monthly sales trends"
+- "Provide first 100 rows"
+- "Most Sold Item"
+- "Try to Categorize items"
 
 ## Workflow Components
 - Trigger: Chat message received
