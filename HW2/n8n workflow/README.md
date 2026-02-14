@@ -1,6 +1,7 @@
 # AI Database Chat with n8n
 
-Chat with PostgreSQL database using natural language powered by Groq LLM.
+Chat with PostgreSQL database using natural language powered by any chat model.
+
 
 ## Setup
 
